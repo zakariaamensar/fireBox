@@ -1,7 +1,7 @@
 import { useAuth } from "../../contexts/AuthContext";
 import React, { useState } from "react";
-import { Card, Button, Alert } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
+import { Alert } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const [error, setError] = useState("");
